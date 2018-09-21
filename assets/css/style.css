@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	color: white;
+	font-family: 'Arial';
+	line-height: 30px;
+	text-align: left;
+	width: 1200px;
+}
+
+header	{
+	float: left;
+	background-color: grey;
+	border-bottom: none;
+	color: white;
+	height: 100%;
+	width: 270px;
+	margin-left: 125px;
+	margin-bottom: 0;
+	font-family: 'Georgia';
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 15px;
+}
+
+h2	{
+	color: yello;
+	border-bottom:	3px;
+	font-family: 'Georgia';
+	margin-top: 1px;
+	padding-bottom: 3px;
+}
+
+.panel	{
+	width: 50%;
+	float: right;
+	text-align: center;
+	margin-right: 125px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	width: 20%;
+	padding: 10px;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+section	{
+	background-color: white;
+	float: left;
+	color: black;
+	border: 2px;
+}
+
+input,
+textarea {
+	width: 100%;
+	padding: 10px 20px 10px 10px;
+    margin: 8px 0;
+    border-color: grey;
+    border-style: solid;
+    border-width: thin;
+}
+
+
+.header-container {
+	border-bottom: 2px solid #cccccc;
+	background-color: #ffffff;
+	height: 60px;
+}
+
+.main-container {
+	clear: both;
+	overflow: auto;
+	margin: 0 auto;
+	background-image: url("../images/background.png");
+	height: 600px;
+	width: 100%;
+	border-bottom: 5px solid #4aaaa5;
+}
+
+.main-container-gallery {
+	height: auto;
+	padding: 20px;
+	clear: both;
+	overflow: auto;
+	margin: 0 auto;
+	background-image: url("../images/background.png");
+	width: 100%;
+	border-bottom: 5px solid #4aaaa5;	
+}
+.box {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+
+.project {
+	float: left;
+	position: relative;
+	top:	-10px;
+	width: 80%;
+	height: 100%;
+}
+
+.project-title {
+	float: left;
+	position: relative;
+	top: -50px;
+	width: 80%;
+	height: 30px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+}
+
+.button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	position: relative;
+	top: -8px;
+}
+
+#main-bio,
+#contact-form,
+#project-portfolio {
+	position: relative;
+	text-align: left;
+	width: 650px;
+	top: 30px;
+	margin-left: 125px;
+	margin-bottom: 50px;
+}
+
+#gallery {
+	position: relative;
+	text-align: left;
+	width: 650px;
+	top: 30px;
+	margin-left: 125px;
+	margin-bottom: 50px;
+	height: auto;
+	padding: 20px;
+}
+
+#main-bio {
+	height: auto;
+	padding: 20px;
+}
+
+#bio-image {
+	clear: both;
+	float: left;
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+#contact-form {
+	padding: 20px;
+	height: 500px;
+}
+
+#project-portfolio {
+	padding: 15px;
+	height: 1000px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
