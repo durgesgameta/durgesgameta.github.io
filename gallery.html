@@ -1,49 +1,32 @@
     
 <!DOCTYPE html>
 <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Homepage</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body onload="loadJsonFile()">
     
   <div class="header-container">
     <header>Durgesh Ameta</header>
 
     <div class="panel">
-      <ul>
-        <li ><a href="index.html">Home</a></li>
-        <li ><a href="AboutMe.html">About Me</a></li>
-        <li ><a href="gallery.html">Photo Gallery</li>
-        <li><a href="contact.html">Contact</a></li></a></li>
-      </ul>
+      
+        <a href="index.html">Home</a> | <a href="AboutMe.html">About Me</a> | <a href="contact.html">Contact Me</a> | <a href="gallery.html">My Photos</a> | <a href="Gallery_Admin.html">Gallery Admin</a>
+      
     </div>
   </div>
   
   <div class="main-container">
     <section id="gallery">
-      <h2>Gallery</h2>
-      <div class="row"> 
-          <div class="column">
-            <img src="assets/images/f1.jpeg">
-            <img src="assets/images/f2.jpeg">
-            <img src="assets/images/f3.jpeg">
-            <img src="assets/images/f4.jpeg">
-            <img src="assets/images/f5.jpeg">
-            <img src="assets/images/f6.jpeg">
-            <img src="assets/images/f7.jpeg">
-          </div>
-          <div class="column">
-            <img src="assets/images/f1.jpeg">
-            <img src="assets/images/f2.jpeg">
-            <img src="assets/images/f3.jpeg">
-            <img src="assets/images/f4.jpeg">
-            <img src="assets/images/f5.jpeg">
-            <img src="assets/images/f6.jpeg">
-            <img src="assets/images/f7.jpeg">
-          </div>
-           
+      <div>
+        <h2>Gallery</h2>
+          <table id="imageTable">
+          </table>
       </div>
+      <script src="imagesAdd.json" type="text/javascript" ></script>
+      <script src="loadImage.js" type="text/javascript" ></script>
     </section>   
   </div>
 </body>
